@@ -313,7 +313,8 @@ For instance, if I want to create a new page for ``blogs``, this is the file tre
 ```
 
 ## Data Fetching
-For data fetching, I invite you to visit the official documentation of your next.js as I would say the same thing on this workshop.  
+For data fetching, I invite you to visit the official documentation of next.js.  
+It is basically the same syntax we're using to retrieve data for the second page of our app.  
 
 
 [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating) in `next.js`.
