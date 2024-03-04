@@ -1,15 +1,15 @@
 # Workshop Web dev. in NextJs & TailwindCSS
 
-## What's Next.Js ?
+## What's Next.Js?
 
-As stated on [Next.js](https://nextjs.org/) official documentation, Next.js is a react framework for building fullstack web applications. With Next.js, you can combine backend and frontend functionalities in one project. Next.js offer many other features like optimization, SEO(Search Engine Optimization) improvement, server-side, client-side components and so on. As this workshop focuses on giving you the basic understanding of Next.js and how components and some main features of front-end web development work, we're not going to state all the benefits of Next.js.  
+As stated on [Next.js](https://nextjs.org/) official documentation, Next.js is a react framework for building full-stack web applications. With Next.js, you can combine backend and frontend functionalities in one project. Next.js offers many other features like optimization, SEO(Search Engine Optimization) improvement, server-side, client-side components and so on. As this workshop focuses on giving you a basic understanding of Next.js and how components and some main features of front-end web development work, we're not going to state all the benefits of Next.js.  
 However, if you're looking for more information, I invite you to look at the [Next.js](https://nextjs.org/) documentation page for more in-depth details.
-These are some of the featues we're going to cover in this workshop:  
+These are some of the features we're going to cover in this workshop:  
 `server components, client components, routing, data fetching`
 
-## What's TailwindCSS ?
+## What's TailwindCSS?
 
-Tailwindcss is a CSS framework for building modern web applications faster with the help of classes. [Tailwind](https://tailwindcss.com/) has a bunch of utility classes to help you setup your project and start building your web apps without worrying about CSS classes. Tailwind is also famous in web development because it's fully cutomizable. You can make your configurations according to your needs.
+Tailwindcss is a CSS framework for building modern web applications faster with the help of classes. [Tailwind](https://tailwindcss.com/) has a bunch of utility classes to help you setup your project and start building your web apps without worrying about CSS classes. Tailwind is also famous in web development because it's fully customizable. You can make your configurations according to your needs.
 
 
 ## Setting our environment
@@ -26,7 +26,7 @@ sudo dnf install nodejs
 Else:  
 Download node here [nodejs installation](https://nodejs.org/en/download).
 
-## Getting started
+## Getting started 🚀
 To create a new app with next.js, follow these instructions:  
 * Create a new folder and `cd` into that folder
 * open your terminal and run the commmand:  
@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.  
 
 ## Configuration
-To make our development process easy and straightforward, I have made a couple of configuration that you'll need to setup to make this workshop easy for you.  
+To make our development process easy and straightforward, I have made a couple of configurations that you'll need to make this workshop easy for you.  
 For now, we are going to change two files: `tailwind.config.js` and `app/globals.css`.  
 You are going to delete the content of those two files and respectively replace it with this code:  
 
