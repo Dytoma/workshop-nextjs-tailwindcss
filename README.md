@@ -253,6 +253,33 @@ To add a class to an element in `next.js`, use this syntax:
 If you don't know what these classes do, you can hover over each of them in the `app/globals.css` and have some details.  
 You can also visit the [Tailwind](https://tailwindcss.com/) documentation page for more information.  
 
+#### Reusable component
+
+Right now your component is like a static function. Whenever you use in another component or in a file, it'll render the same thing.  
+In `Next.js` just like in `React.js`, you can make reusable components, working like functions with parameters.  
+Remember that when you want to use code in your `html`, you have to surround it with curly brackets `{` `}`.  
+Let see an example:  
+Reusable component declaration
+```js
+import React from 'react'
+
+export default function Eat({food}) {
+  return (
+    <h1>I'm eating {food}</h1>
+  )
+}
+```
+And when calling the component, you have to set the `props` that you passed to that component:
+```js
+import Eat from "path/to/Eat"
+
+...
+<Eat food = "banana" />
+...
+
+```
+This will render on the page: `I'm eating banana`. You can then change the `food` variable according to your needs.
+
 # Projrect structure
 Follow the following steps to finish the setting up.  
 - **Step1**  
